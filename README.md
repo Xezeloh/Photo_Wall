@@ -45,6 +45,15 @@ It's very easy to use this template to create your own website. Just follow the 
    - Run `step2_thumbnail.py` to create thumbnails for all the photos. This script will create thumbnails for all the photos in the `images` folder.
 
 5. **Deploy Your Website**
+   
+   **Option 1: Local Testing (解决看不到照片的问题)**
+   1. Don't open the HTML file directly. Instead, set up a local server:
+      - **VS Code**: Install "Live Server" extension, right-click `index.html` → "Open with Live Server"
+      - **Python**: Run `python -m http.server 8000` in the project directory
+      - **Node.js**: Run `npx http-server` in the project directory
+   2. Visit `http://localhost:8000` or the port shown in your terminal
+
+   **Option 2: Deploy to GitHub Pages**
    1. After finishing your edits and committing your changes, go to the GitHub repository page and click the **Settings** tab at the top.
    2. In the left-hand menu, find and click **Pages**.
    3. In the **Branch** section, change the option from `None` to the `main` branch and save.
@@ -112,6 +121,15 @@ It's very easy to use this template to create your own website. Just follow the 
    - 运行 `step2_thumbnail.py` 来为所有照片创建缩略图。此脚本会为 `images` 文件夹中的所有照片创建缩略图。
 
 5. **部署你的网页**
+   
+   **选项 1：本地测试（解决看不到照片的问题）**
+   1. 不要直接打开HTML文件，而是建立本地服务器：
+      - **VS Code**：安装"Live Server"扩展，右键点击`index.html` → "Open with Live Server"
+      - **Python**：在项目目录运行`python -m http.server 8000`
+      - **Node.js**：在项目目录运行`npx http-server`
+   2. 访问`http://localhost:8000`或终端显示的端口
+
+   **选项 2：部署到GitHub Pages**
    1. 完成编辑并提交更改后，进入 GitHub 仓库页面，点击顶部的 **Settings** 标签。
    2. 在左侧菜单中，找到并点击 **Pages**。
    3. 在 **Branch** 部分，将选项从 `None` 改为 `main` 分支，并保存。
